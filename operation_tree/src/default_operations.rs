@@ -8,3 +8,4 @@ mod subtraction;
 mod division;
 
 mod sqroot;
+mod nthroot;
