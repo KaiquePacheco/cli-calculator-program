@@ -9,3 +9,5 @@ mod division;
 
 mod sqroot;
 mod nthroot;
+
+mod logarithm;
