@@ -6,3 +6,5 @@ mod exponentiation;
 
 mod subtraction;
 mod division;
+
+mod sqroot;
