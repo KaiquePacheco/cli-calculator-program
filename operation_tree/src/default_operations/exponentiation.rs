@@ -13,20 +13,13 @@ impl PowNode{
 
 impl OpNode<f64> for PowNode{
   fn operate(&self) -> f64 {
-    self
-      .base
-      .operate()
-      .powf(
-        self
-        .power
-        .operate()
-      )
+    self.base.operate().powf(self.power.operate())
   }
 }
 
 #[cfg(test)]
 mod tests_for_exp_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::PowNode;
 
   #[test]

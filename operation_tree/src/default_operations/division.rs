@@ -23,7 +23,7 @@ where T: Copy + Div<Output = T>{
 
 #[cfg(test)]
 mod tests_for_div_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::DivNode;
 
   #[test]

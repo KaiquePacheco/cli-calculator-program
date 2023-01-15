@@ -23,7 +23,7 @@ where T: Add<Output = T> + Copy {
 #[cfg(test)]
 mod test_for_add_node{
   use super::AddNode;
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::{op_node::default::value::ValueNode, op_node::OpNode};
 
   #[test]
   fn testing_operate(){

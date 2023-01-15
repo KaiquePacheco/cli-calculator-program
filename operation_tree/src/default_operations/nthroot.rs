@@ -19,7 +19,7 @@ impl OpNode<f64> for NthrtNode{
 
 #[cfg(test)]
 mod tests_for_nthrt_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::NthrtNode;
 
   #[test]

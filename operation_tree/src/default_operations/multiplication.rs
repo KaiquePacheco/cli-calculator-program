@@ -23,7 +23,7 @@ where T: Copy + Mul<Output = T>{
 
 #[cfg(test)]
 mod test_for_mul_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::MulNode;
 
   #[test]

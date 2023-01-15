@@ -19,7 +19,7 @@ impl OpNode<f64> for LnNode{
 #[cfg(test)]
 mod tests_for_ln_node{
   use std::f32::consts::E;
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::LnNode;
 
   #[test]

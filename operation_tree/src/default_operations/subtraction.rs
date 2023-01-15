@@ -24,7 +24,7 @@ where T: Copy + Sub<Output = T>{
 #[cfg(test)]
 mod tests_for_sub_node{
   use super::SubNode;
-  use crate::{op_node::OpNode, default_operations::value::ValueNode};
+  use crate::op_node::{OpNode, default::value::ValueNode};
 
   #[test]
   fn testing_operate(){

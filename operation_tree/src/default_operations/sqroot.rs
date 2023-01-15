@@ -18,7 +18,7 @@ impl OpNode<f64> for SqrtNode{
 
 #[cfg(test)]
 mod tests_for_sqrt_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::SqrtNode;
 
   #[test]

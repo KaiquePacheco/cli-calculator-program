@@ -19,7 +19,7 @@ impl OpNode<f64> for LogNode{
 
 #[cfg(test)]
 mod tests_for_log_node{
-  use crate::{default_operations::value::ValueNode, op_node::OpNode};
+  use crate::op_node::{default::value::ValueNode, OpNode};
   use super::LogNode;
 
   #[test]

@@ -1,3 +1,6 @@
+#[path ="default.rs"]
+mod default;
+
 pub trait OpNode<T>
 where T: Copy{
   fn operate(&self) -> T; 
