@@ -11,3 +11,4 @@ mod sqroot;
 mod nthroot;
 
 mod logarithm;
+mod ln;
